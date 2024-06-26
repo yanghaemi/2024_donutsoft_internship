@@ -4,13 +4,33 @@
 var odd = irandom(1300)
 
 
-if delay = 0 {
-	instance_create_depth(odd, -100, 0, obj_drop)
-	delay = 60
-	//room_speed
+if(obj_mode_change_btn.flag = 0){
+	if delay = 0 {
+		instance_create_depth(odd, -100, 1, obj_drop)
+		delay = 60
+		//room_speed
+	}
+
+	if delay > 0{
+		delay --
+	}
 }
 
-if delay > 0{
-	delay --
+if(obj_mode_change_btn.flag = 1){
+	if delay = 0 {
+		instance_create_depth(odd, -100, 0, obj_drop_stone)
+		delay = 80
+		//room_speed
+	}
+
+	if delay > 0{
+		delay --
+	}
 }
+
+
+
+
+
+
 

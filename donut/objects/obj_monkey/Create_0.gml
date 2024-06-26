@@ -4,11 +4,11 @@
 xx=x
 yy= y
 
-spd = 15
+spd = 40
 
 image_speed = 0
 
 vspd = 0
 yy = y // 현재 y좌표를 yy좌표에 저장
 
-
+drop_sec_cnt = 0

@@ -2,10 +2,10 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 draw_set_color(c_black)
-global.new_font = font_add("EF_jejudoldam(윈도우용_TTF).ttf", 40, true, false,32,12644)
-draw_set_font(global.new_font);
+//global.new_font = font_add("EF_jejudoldam(윈도우용_TTF).ttf", 40, true, false,32,12644)
+//draw_set_font(global.new_font);
 
-draw_text(400, 50, "현재 시간: ")
-draw_text(680, 50, current_hour)
-draw_text(780, 50, current_minute)
-draw_text(880, 50, current_second)
+draw_text_transformed(400, 50, obj_monkey.drop_sec_cnt,2,2,0)
+draw_text_transformed(680, 50, current_hour,2,2,0)
+draw_text_transformed(780, 50, current_minute,2,2,0)
+draw_text_transformed(880, 50, current_second,2,2,0)

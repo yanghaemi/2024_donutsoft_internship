@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "룸",
-    "path": "folders/룸.yy",
+    "name": "스프라이트",
+    "path": "folders/스프라이트.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

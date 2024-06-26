@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_drop",
-    "path": "sprites/s_drop/s_drop.yy",
+    "name": "spr_drop",
+    "path": "sprites/spr_drop/spr_drop.yy",
   },
   "spriteMaskId": null,
   "visible": true,
