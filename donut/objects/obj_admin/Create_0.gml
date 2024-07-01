@@ -3,4 +3,6 @@
 
 delay = 0
 
-
+instance_create_depth(488,60,3,obj_tree)
+instance_create_depth(0,0,4,obj_sky)
+instance_create_depth(room_width*(current_minute/60), 506, 0, obj_drop_stone)
