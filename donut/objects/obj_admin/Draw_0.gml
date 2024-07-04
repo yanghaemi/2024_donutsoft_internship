@@ -5,7 +5,7 @@ draw_set_color(c_black)
 //global.new_font = font_add("EF_jejudoldam(윈도우용_TTF).ttf", 40, true, false,32,12644)
 //draw_set_font(global.new_font);
 
-draw_text_transformed(400, 50, obj_monkey.drop_sec_cnt,2,2,0)
-draw_text_transformed(680, 50, current_hour,2,2,0)
-draw_text_transformed(780, 50, current_minute,2,2,0)
-draw_text_transformed(880, 50, current_second,2,2,0)
+//draw_text_transformed(400, 50, obj_monkey.drop_sec_cnt,2,2,0)
+draw_text_transformed(550, 50, current_hour,2,2,0)
+draw_text_transformed(650, 50, current_minute,2,2,0)
+draw_text_transformed(750, 50, current_second,2,2,0)

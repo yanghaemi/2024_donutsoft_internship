@@ -3,6 +3,9 @@
 
 var odd = irandom(1300)
 
+if current_minute = 0{
+	instance_create_depth(0, 506, 0, obj_drop_stone)}
+
 
 if(obj_mode_change_btn.flag = 0){
 	if delay = 0 {
@@ -27,6 +30,8 @@ if(obj_mode_change_btn.flag = 1){
 		delay --
 	}
 }
+
+
 
 
 
