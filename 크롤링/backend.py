@@ -31,7 +31,7 @@ def create_db_table():
     conn.close() # 종료
 
 def clear_db():
-    conn = pymysql.connect(host='127.0.0.1', user = 'root', password='4021', db='pythondb', charset='utf8')
+    conn = pymysql.connect(host='127.0.0.1', user = 'root', password='0000', db='pythondb', charset='utf8')
     # 접속정보
     cur = conn.cursor()
     # 커서 생성
@@ -181,4 +181,5 @@ while True:
     time.sleep(5) # 5초마다 반복
     clear_db()
     
+
 
